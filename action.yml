@@ -1,0 +1,10 @@
+name: 'json-file-merger'
+description: 'JSON File Merger for Github Action'
+author: 'Rhio Kim'
+inputs:
+  files: 
+    required: true
+    description: 'input description here'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
